@@ -1,0 +1,11 @@
+# Python dependencies for helper scripts
+# Silver Tier Implementation
+
+# Email sending
+python-dotenv>=1.0.0
+
+# Gmail API (same as watchers)
+google-auth>=2.16.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.70.0

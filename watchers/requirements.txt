@@ -1,0 +1,15 @@
+# Python dependencies for AI Employee Watchers
+# Silver Tier Implementation
+
+# Gmail Watcher
+google-auth>=2.16.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.70.0
+
+# WhatsApp & LinkedIn Watchers (Browser Automation)
+playwright>=1.40.0
+
+# General utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
