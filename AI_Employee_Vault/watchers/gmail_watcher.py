@@ -26,7 +26,7 @@ except ImportError:
     sys.exit(1)
 
 # Configuration
-VAULT_PATH = Path(__file__).parent.parent / "AI_Employee_Vault"
+VAULT_PATH = Path(__file__).parent.parent  # watchers/ -> AI_Employee_Vault/
 NEEDS_ACTION = VAULT_PATH / "Needs_Action"
 CREDENTIALS_PATH = Path(__file__).parent / "credentials" / "gmail_credentials.json"
 TOKEN_PATH = Path(__file__).parent / "credentials" / "gmail_token.pickle"
